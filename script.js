@@ -1,7 +1,7 @@
 (function () {
   const copyBtn = document.getElementById("copy-ca");
   const caText = document.getElementById("ca-text");
-  const ca = copyBtn?.dataset.copy || "xyzpump";
+  const ca = copyBtn?.dataset.copy || "E6QZmyAi86yhXieF4TSvF2ChkNMFwLxTJRdseRbXpump";
 
   if (copyBtn && caText) {
     copyBtn.addEventListener("click", async () => {
